@@ -1,0 +1,10 @@
+#contact{
+		height: 70px;
+		/*margin: 30px 10px;*/
+		/*padding-top: 10rem;*/
+		display: block;
+		}
+.contact{
+	text-align: center;
+	padding: 15px;
+}

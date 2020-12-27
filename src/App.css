@@ -1,0 +1,69 @@
+.mainCard
+{
+display                          : flex;
+
+flex-warp                        : warp;
+}
+.boxA,
+.boxB
+{
+width                            : 45%;
+}
+.centerA
+{
+margin                           : auto;
+}
+.boxA1,
+.boxB1
+{
+display                          : flex;
+
+width                            : 45%;
+
+justify-content                  : flex-end;
+}
+.centerA
+{
+margin                           : auto;
+}
+ul
+{
+display                          : inline-block;
+
+margin                           : 0;
+padding                          : 0;
+}
+li
+{
+float                            : left;
+
+padding-right                    : 30px;
+
+list-style-position              : inside;
+list-style-type                  : none;
+}
+li > a
+{
+cursor                           : pointer;
+text-decoration                  : none;
+
+color                            : white;
+}
+@media only screen and (max-width: 600px)
+{
+.mainCard
+{
+display                          : flex;
+flex-direction                   : column;
+
+justify-content                  : space-around;
+}
+.boxA
+{
+width                            : 100%;
+}
+.boxB
+{
+width                            : 100%;
+}
+}
